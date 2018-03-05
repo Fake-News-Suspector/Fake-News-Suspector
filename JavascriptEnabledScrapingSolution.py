@@ -1,3 +1,16 @@
+import requests
+from bs4 import BeautifulSoup
+from selenium import webdriver
+
+url=" https://www.yahoo.com/news/arkansas-becomes-third-u-state-add-medicaid-requirements-172829892--business.html"
+driver = webdriver.Firefox(executable_path=r'C:\firefoxdriver\geckodriver.exe')
+driver.get(url)
+html = driver.execute_script("return document.documentElement.outerHTML")
+sel_soup = BeautifulSoup(html,'html.parser')
+print(sel_soup.find('a',{'class':'comments-title D(ib) Cur(p) Td(n) C(#000)'}))
+
+
+"""
 import sys
 from PyQt4.QtGui import QApplication
 from PyQt4.QtCore import QUrl
@@ -22,7 +35,6 @@ js_test = soup.find('div',attr={'class','D(ib) Fw(b) Mend(10px) Fz(14px) C($c-fu
 print(js_test.text)
 
 
-"""
 my_url='https://www.yahoo.com/news/oklahoma-teachers-might-west-virginia-strike-walk-outs-055624171.html?nf=1'
 from selenium import webdriver
 driver = webdriver.Chrome("C:/chromedriver/chromedriver")
