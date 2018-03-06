@@ -7,6 +7,7 @@ driver = webdriver.Firefox(executable_path=r'C:\firefoxdriver\geckodriver.exe')
 driver.get(url)
 html = driver.execute_script("return document.documentElement.outerHTML")
 sel_soup = BeautifulSoup(html,'html.parser')
+driver.close()
 print(sel_soup.find('a',{'class':'comments-title D(ib) Cur(p) Td(n) C(#000)'}))
 
 
