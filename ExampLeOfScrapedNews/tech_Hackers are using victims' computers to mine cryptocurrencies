@@ -1,0 +1,38 @@
+	 	 	 	 LINK TO NEWS 
+https://www.yahoo.com//news/hackers-using-victims-computers-mine-cryptocurrencies-154915570.html
+	 	 	 	 HEADLINE 
+Hackers are using victims' computers to mine cryptocurrencies
+	 	 	 	 CONTENT 
+Bitcoin (BTC-USD) and the entire range of cryptocurrencies are among the most popular buzzwords in finance at the moment. And despite falling from their late-2017 highs, many investors are still buying into everything from ripple (XRP-USD) and ethereum (ETH-USD) to litecoin (LTC-USD) and ZCash (ZEC-USD).
+
+Unfortunately, the increase in crypto’s popularity has, predictably, led to a new form of malware designed to get you to unwittingly mine currencies for criminals: cryptojackers. Cryptojackers are pieces of malware that force your computer or smartphone to use their processors to mine cryptocurrencies for the malware’s makers.
+
+And the wave of cryptojacking malware is likely set to rise. The latest victims include a water utility in Europe, millions of Android phones, the Telegram app and others.
+
+Syphoning power from a water utility
+
+According to Wired, the malware at the unnamed water utility was discovered by security firm Radiflow. The company says the cryptojacking software was designed to mine for monero (XMR-USD), a cryptocurrency that has gained popularity among cybercriminals due to the fact that it’s easier to mine using a standard processor than something like bitcoin, which is best mined using a high-end graphics card.
+
+The malware was designed to run as a piece of background software so the utility’s employees wouldn’t notice it was using any power. In fact, Radiflow says it only caught the cryptojacking software as part of its monitoring of the utility’s operational technology network, which is meant to control physical changes to a network system.
+
+In this case, Radiflow found that the cryptojacking software was pushing the water utility’s PCs to perform at extremely high levels, which, impacted the computers’ abilities to perform the basic tasks they were designed to tackle.
+
+Millions of Android devices
+
+Those millions of Android phones, meanwhile, were impacted by a different kind of cryptomining malware called drive-by cryptomining. This type of malware, according to Malwarebytes, redirected users’ smartphone web browsers to a specific website.
+
+The site would then give you some bogus message about how your device “is showing suspicious surfing behavior” and then tells you to prove that you’re a human and not a bot by typing a captcha before letting you navigate away from the site.
+
+Millions of Android smartphones have fallen victim to cryptojacking. (image: Tom’s Guide) More
+
+While you’re stuck on the offending page, though, the malware makers force your phone’s CPU to mine monero for them, pushing the processor to its max and gobbling up your system resources, which slows your handset considerably.
+
+Malwarebytes says this piece of malware likely comes from infected apps that users inadvertently downloaded. The apps force users to the cryptojacking site and steal their phones’ processing power.
+
+These are far from the first cryptojacking schemes to steal your PC’s or smartphone’s resources. Browser-based cryptominers can force your computer to mine monero even after you think you’ve left the offending site that launched the mining operation behind.
+
+Telegram on the desktop
+
+Cryptojacking has also hit the messaging app Telegram. According to the cybersecurity firm Kaspersky Lab, hackers used an exploit to trick users of Telegram’s desktop software to install a piece of malware that would use their machines to mine for monero and ZCash.
+
+“Running it, the computer slows down, overheats and generally busts a gut trying to mine cryptocurrency for the attackers,” Kaspersky’s Anna Markovskaya wrote in a blog post.
