@@ -2,10 +2,13 @@ import pprint
 from newsapi import NewsApiClient
 import sqlite3
 import re
+import nltk
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GOOGLE NEWS API ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 newsapi = NewsApiClient(api_key='d6bcc880b0234b1abaeadd0acaabc57a')
-news_query='Stephen Hawking died'
-news_keywords=news_query.split(" ")
+news_query='Florida school says it was not aware of bridge cracks before fatal collapse'
+news_keywords=[token for token, pos in nltk.pos_tag(nltk.word_tokenize(news_query)) if pos.startswith('N') or pos.startswith('J') or pos.startswith('V') or pos.startswith('R')]
+print(news_keywords)
+#news_keywords=news_query.split(" ")
 all_articles = newsapi.get_everything(q=news_query)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DATABASE STORAGE OF JSON RESULT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -28,7 +31,7 @@ for data in result:
          count=count+1               
    Match_percent=(count/len(news_keywords))
    print(Match_percent)
-   if Match_percent < 0.75 :
+   if Match_percent < 0.85 :
       con.execute("DELETE FROM RESULT WHERE title LIKE \""+data[5]+"\"")
       con.commit()
    else:
