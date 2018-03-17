@@ -12,10 +12,10 @@ def main_news():
         news = "Two Texans, Argentinian among dead in New York City helicopter crash" #Search query for news
         news_keywords = news.split(" ")
         print(news_keywords)
-        url= {'https://www.yahoo.com/news/us/','https://www.yahoo.com/news/world/',
+        url= ['https://www.yahoo.com/news/us/','https://www.yahoo.com/news/world/',
                  'https://www.yahoo.com/news/politics/','https://finance.yahoo.com/tech/','https://www.yahoo.com/news/science/',
                  'https://finance.yahoo.com/','https://www.yahoo.com/news/now-i-get-it',
-                 'https://www.yahoo.com/gma','https://www.yahoo.com/news/originals/'}
+                 'https://www.yahoo.com/gma','https://www.yahoo.com/news/originals/']
                  #+ str(page)
 
 
