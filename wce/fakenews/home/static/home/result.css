@@ -1,0 +1,28 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color:#E54B4B;
+}
+.result-window
+{
+	height:100%;
+	text-align:center;
+}
+.result
+{
+	
+	font-family: 'PT Sans', sans-serif;
+	color:white;
+	font-size:150px;
+	width:100%;	
+
+}
+
+
+.truthy
+{
+	font-size:100px;
+}
+
+

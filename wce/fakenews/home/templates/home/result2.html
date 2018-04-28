@@ -1,0 +1,32 @@
+{% extends 'home/base.html'%}
+{% block content %}
+	
+	
+{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'home/result.css' %}" type="text/css">
+	 <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet"> 
+	<div class="row resuzlt-window">
+	
+		<div class="col-md-6 col-sm-12">	
+			<div class="result">
+
+				<span class="final">	
+					{% for i in final3 %}
+						<p class="truthy">The category of the given url is</p>
+						
+						<p>{{i}}</p>
+						<br>
+					{% endfor %}
+				</span>
+			</div>
+		</div>
+
+
+				 		
+		
+	</div>
+
+
+
+
+{% endblock %}
