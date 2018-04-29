@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 from .api import search
-from .classifier	import vector 
+# from .classifier	import vector 
 from .ApiTweet import  twitter  
 from .categorizer import cate
 def index(request):

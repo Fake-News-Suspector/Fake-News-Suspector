@@ -32,16 +32,17 @@
 		<div class="container-fluid">
 		<h1 class="logo">Truthify</h1>
 		<ul class="site-nav">
-			<li><a href="#"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+			<li><a href="/"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
 			<li><a href="#"><i class="fa-info site-nav--icon"></i>About</a></li>
 			<li><a href="#"><i class="fa fa-pencil site-nav--icon"></i>Blog</a></li>
 			<li><a href="#"><i class="fa fa-usd site-nav--icon"></i>Pricing</a></li>
 			<li><a href="#"><i class="fa fa-envelope site-nav--icon"></i>Contact</a></li>
-			<li><a href="/accounts/register/">Sign-in</a></li>
+			
 			
 			{% if user.is_authenticated %}
 				<li><a href="/accounts/logout">Logout</a></li>
 			{% else %}
+				<li><a href="/accounts/register/">Sign-in</a></li>
 				<li><a href="/accounts/login">login</a></li>
 			{% endif%}
 

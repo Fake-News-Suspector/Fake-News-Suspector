@@ -1,7 +1,8 @@
 body {
-  background: white;
-  font-family: 'Helvetica', 'Arial', sans-serif;
   
+  font-family: 'Helvetica', 'Arial', sans-serif;
+   background-color:#e9ecef;
+ 
 }
 .container-fluid
 {
@@ -221,11 +222,83 @@ li:last-child {
   margin:0;
 }
 
+
+.jumbo
+{
+  width:100%;
+  margin-bottom: 0px;
+  text-align:center;
+  padding-top:100px;
+
+
+}
+.truth
+{
+  font-family: 'Romanesco', cursive;
+  font-style:bold;
+  font-size:300px;
+}
+.below-truth
+{
+  font-family: 'Romanesco', cursive;
+  font-size:100px;
+  font-style:bold;
+}
+
+.main-form
+{
+  text-align:center;
+  padding-top:40px;
+  overflow:hidden;
+}
+.search-input
+{
+  background-color:#fff;
+  width:65%;
+  height:72px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius:35px;
+  color:#212529;
+  font-size:30px;
+  margin-right:0px;
+  margin:0px;
+  padding-top:0px;
+  padding-right:0px;
+  border-top:2px solid grey;
+  border-left:2px solid grey;
+  border-right:0px;
+  padding-bottom:0px;
+}
+input[type="text"]
+{
+
+padding-left:15px;
+}
+
+.button
+{
+  height:70px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  margin:0px;
+  padding-bottom:0px;
+  border:0px;
+  font-size:34px;
+  color:#EBEBD3;
+  padding-right:10px;
+  
+}
+.main-from
+{
+  
+  text-align:center;
+
+}
 /*.about
 {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }*/
-.overlay
+/*.overlay
 {
   
   background-color: rgba(0,0,0,0.5);
@@ -240,7 +313,7 @@ li:last-child {
   padding-left:0px;
   
 
-/* Create the parallax scrolling effect */
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -280,36 +353,17 @@ input.search-bar
   font-size:26px;
   font-family: 'Courgette', cursive;  
 }
-.jumbo
-{
-  width:100%;
-  margin-bottom: 0px;
-  text-align:center;
 
-
-}
-.truth
-{
-  font-family: 'Romanesco', cursive;
-  font-style:bold;
-  font-size:200px;
-}
-.below-truth
-{
-  font-family: 'Romanesco', cursive;
-  font-size:80px;
-  font-style:bold;
-}
 
 .side-info
 {
   font-size:80px;
 }
 
+*/
 
 
-
-
+/*
 .rest
 {
   
@@ -329,7 +383,7 @@ input.search-bar
   font-family: font-family: 'Romanesco', cursive;
   font-size:70px;
 }
-/*-------- flex container --------*/
+
 .flex-container {
   display: flex;
   display: -moz-box;
@@ -501,4 +555,7 @@ input.search-bar
 }
 .flex-container .flex-item.bg-green .tile-primary-content {
   background-color: #212529;
-}
+}*/
+
+
+
