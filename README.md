@@ -3,7 +3,7 @@
  <img width=300px src="FakeLogo.PNG" alt="FakeNews-logo"></a>
 </p>
 
-<h3 align="center">Headlines,News and links based fake news detector.</h3>
+<h3 align="center">ML based fake news detector.</h3>
 
 ------------------------------------------
 
@@ -32,7 +32,7 @@
 
 ### Add-Ons
 
-- [ ] Using differeent Algorithms and technology to verify truth eg. Deep Learning,AI.
+- [ ] Using different Algorithms and technology to verify truth eg. Deep Learning,AI.
 - [ ] Add More
 
 ------------------------------------------
